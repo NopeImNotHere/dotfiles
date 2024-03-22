@@ -1,0 +1,456 @@
+<div id="NewLessonData" style="margin-top: 100px;">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>WochenStunden</th>
+                <th>Turnus</th>
+                <th>Schulhalbjahr</th>
+              </tr>
+              <tr>
+                <td><input type="number" id="WochenStunden"></td>
+                <td><select id="Turnus">
+                    <option value="1" title="0.5">GKW</option>
+                    <option value="2" title="0.5">UKW</option>
+                    <option value="3" title="1">wöchentlich</option>
+                  </select></td>
+                <td><select id="Schuljahr">
+                    <option value="1">1.+2. HJ</option>
+                    <option value="2">1. HJ</option>
+                    <option value="3">2. HJ</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>Hinweis</th>
+                <th>Schülergruppe</th>
+              </tr>
+              <tr>
+                <td><textarea id="Hinweis" placeholder="Hinweis"></textarea></td>
+                <td><select id="Schuelergruppe">
+                    <option value="1">Ganze Klasse</option>
+                    <option value="2">Getrennt nach Lehrer</option>
+                    <option value="3">Freier Gruppenname</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>Lehrer</th>
+                <th>Fach</th>
+                <th>Fachraum</th>
+                <th>Stammraum</th>
+              </tr>
+              <tr>
+                <td><select id="Lehrer">
+                    <option value="1">ALK</option>
+                    <option value="2">BEC</option>
+                    <option value="3">BUC</option>
+                    <option value="4">CAR</option>
+                    <option value="5">CON</option>
+                    <option value="6">DIE</option>
+                    <option value="7">DUS</option>
+                    <option value="8">EVA</option>
+                    <option value="9">FAB</option>
+                    <option value="10">FAS</option>
+                    <option value="11">FRO</option>
+                    <option value="12">GAL</option>
+                    <option value="13">GAR</option>
+                    <option value="14">GRA</option>
+                    <option value="15">GRO</option>
+                    <option value="16">HBN</option>
+                    <option value="17">HIL</option>
+                    <option value="18">HOL</option>
+                    <option value="19">HUE</option>
+                    <option value="20">KER</option>
+                    <option value="21">KLE</option>
+                    <option value="22">KLI</option>
+                    <option value="23">KLN</option>
+                    <option value="24">KLU</option>
+                    <option value="25">KLZ</option>
+                    <option value="26">KOM</option>
+                    <option value="27">KOS</option>
+                    <option value="28">KOT</option>
+                    <option value="29">KRU</option>
+                    <option value="30">LAN</option>
+                    <option value="31">LIM</option>
+                    <option value="32">LIN</option>
+                    <option value="33">LOS</option>
+                    <option value="34">MAG</option>
+                    <option value="35">MAS</option>
+                    <option value="36">MAW</option>
+                    <option value="37">MIC</option>
+                    <option value="38">MSM</option>
+                    <option value="39">MUE</option>
+                    <option value="40">MUL</option>
+                    <option value="41">OEZ</option>
+                    <option value="42">ohne</option>
+                    <option value="43">ONU</option>
+                    <option value="44">PEI</option>
+                    <option value="45">PET</option>
+                    <option value="46">PFU</option>
+                    <option value="47">PIH</option>
+                    <option value="48">PIT</option>
+                    <option value="49">PNE</option>
+                    <option value="50">POR</option>
+                    <option value="51">PTZ</option>
+                    <option value="52">RAP</option>
+                    <option value="53">RHO</option>
+                    <option value="54">RIC</option>
+                    <option value="55">RIT</option>
+                    <option value="56">SAO</option>
+                    <option value="57">SCH</option>
+                    <option value="58">SCK</option>
+                    <option value="59">SCM</option>
+                    <option value="60">SCN</option>
+                    <option value="61">SCR</option>
+                    <option value="62">SCU</option>
+                    <option value="63">SCZ</option>
+                    <option value="64">SHZ</option>
+                    <option value="65">SIK</option>
+                    <option value="66">SLP</option>
+                    <option value="67">SPP</option>
+                    <option value="68">STA</option>
+                    <option value="69">STR</option>
+                    <option value="70">TIS</option>
+                    <option value="71">URF</option>
+                    <option value="72">VDB</option>
+                    <option value="73">VDH</option>
+                    <option value="74">WAD</option>
+                    <option value="75">WAL</option>
+                    <option value="76">WAZ</option>
+                    <option value="77">WEB</option>
+                    <option value="78">WEL</option>
+                    <option value="79">WEN</option>
+                    <option value="80">WES</option>
+                    <option value="81">WND</option>
+                    <option value="82">WOF</option>
+                    <option value="83">WOL</option>
+                  </select></td>
+                <td><select id="Fach">
+                    <option value="1" title="AEVO">Ausbildereignungsprüfung</option>
+                    <option value="2" title="Ausb.">Ausbildung Referendare</option>
+                    <option value="3" title="AV">Audiovisuelle Medien</option>
+                    <option value="4" title="Basketball">Basketball</option>
+                    <option value="5" title="BEB">Berufseinstiegsbegleitung</option>
+                    <option value="6" title="BEST">BEST-Kurs</option>
+                    <option value="7" title="BM">Betriebliches Management</option>
+                    <option value="8" title="BSNW">Betriebssysteme und Netzwerktechnik</option>
+                    <option value="9" title="BUP">Bertiebs- und Personalwirtschaft</option>
+                    <option value="10" title="CAD">Computer-Aided-Design</option>
+                    <option value="11" title="CH">Chemie</option>
+                    <option value="12" title="D">Deutsch/Kommunikation</option>
+                    <option value="13" title="DB">Datenbanken</option>
+                    <option value="14" title="E">Englisch</option>
+                    <option value="16" title="ER">Evangelische Religion</option>
+                    <option value="17" title="ET">Elektrotechnik</option>
+                    <option value="18" title="EVA">Eigenverantwortliches Arbeiten</option>
+                    <option value="19" title="FOTO">Fotografie</option>
+                    <option value="20" title="FPBH">Fachpraxis Bau/Holz</option>
+                    <option value="21" title="FPET">Fachpraxis Elektrotechnik</option>
+                    <option value="22" title="FPKT">Fachpraxis Kraftfahrzeugtechnik</option>
+                    <option value="23" title="FPME">Fachpraxis Metalltechnik</option>
+                    <option value="24" title="FUBA">Fachunterricht Bau</option>
+                    <option value="25" title="FUET">Fachunterricht Elektrotechnik</option>
+                    <option value="26" title="FUGA">Fachunterricht Galvanotechnik</option>
+                    <option value="27" title="FUGM">Fachunterricht Graveure+Metallbildner</option>
+                    <option value="28" title="FUGT">Fachunterricht Galvanotechnik Techniker</option>
+                    <option value="29" title="FUHO">Fachunterricht Holztechnik</option>
+                    <option value="30" title="FUKT">Fachunterricht Kraftfahrzeugtechnik</option>
+                    <option value="31" title="FUMA">Fachunterricht Maler</option>
+                    <option value="32" title="FUME">Fachunterricht Metalltechnik</option>
+                    <option value="33" title="FUMG">Fachunterricht Mediengestalter</option>
+                    <option value="34" title="GG">Gesellschaftslehre mit Geschichte</option>
+                    <option value="35" title="GPT">Gruppenprozesstraining</option>
+                    <option value="36" title="HPB">Herstellen von Produkten und Betriebsmitteln</option>
+                    <option value="37" title="INF">Informatik</option>
+                    <option value="38" title="ITG">Integration MPT</option>
+                    <option value="39" title="ITK">Informationstechnik und Technische Kommunikation</option>
+                    <option value="40" title="KFT">Konstruktions- und Fertigungstechnik</option>
+                    <option value="41" title="KR">Katholische Religion</option>
+                    <option value="42" title="M">Mathematik</option>
+                    <option value="43" title="MBT">Maschinenbautechnik</option>
+                    <option value="44" title="MDT">Manuelle Drucktechnik</option>
+                    <option value="45" title="MET">Metallographie</option>
+                    <option value="46" title="PH">Physik</option>
+                    <option value="47" title="PK">Politik/Gesellschaftslehre</option>
+                    <option value="48" title="PRAKT">Praktikumsbetreuung</option>
+                    <option value="49" title="PREM">Praktikum Rasterelektronenmikroskop</option>
+                    <option value="50" title="PRT">Präsentationstechnik</option>
+                    <option value="51" title="PSY">Psychologie</option>
+                    <option value="52" title="QM">Qualitätsmanagement</option>
+                    <option value="53" title="S">Spanisch</option>
+                    <option value="54" title="SIT">Sitzung</option>
+                    <option value="55" title="SKA">Selbstorganisiertes kreatives Arbeiten</option>
+                    <option value="56" title="SLP">Selbstlernphase</option>
+                    <option value="57" title="SOFT">Software</option>
+                    <option value="58" title="SP">Sport/Gesundheitsförderung</option>
+                    <option value="59" title="TÜ">Technologische Übungen</option>
+                    <option value="60" title="VP">Vertretungsplanung</option>
+                    <option value="61" title="VT">Verfahrenstechniken</option>
+                    <option value="62" title="WEBE">Webentwicklung</option>
+                    <option value="63" title="WPA">Werkstoffprüfung/Werkstoffanalyse</option>
+                    <option value="65" title="WT">Werkstofftechnik</option>
+                    <option value="66" title="WW">Wirtschafts- und Betriebslehre / Wirtschaftslehre</option>
+                  </select></td>
+                <td><select id="Stammraum">
+                    <option value="1" title="Werkstatt Elektrotechnik">1001</option>
+                    <option value="2" title="Labor für elektrische Anlagen">1003</option>
+                    <option value="3" title="	Unterrichtsraum	">1004</option>
+                    <option value="4" title="	Labor für Elektronik	">1102</option>
+                    <option value="5" title="	Unterrichtsraum	">1104</option>
+                    <option value="6" title="	SRT-Labor Elektrotechnik	"> 1110 </option>
+                    <option value="7" title="	Unterrichtsraum	"> 1201 </option>
+                    <option value="8" title="	Hörsaal I	"> 1202 </option>
+                    <option value="9" title="	Labor für Grundlagen der Elektrotechnik	"> 1206 </option>
+                    <option value="10" title="	Hörsaal II	"> 1207 </option>
+                    <option value="11" title="	Religionsraum 1	"> 2001 </option>
+                    <option value="12" title="	Religionsraum 2	"> 2002 </option>
+                    <option value="13" title="	Unterrichtsraum	"> 2005 </option>
+                    <option value="14" title="	Beratungsteam	"> 2008 </option>
+                    <option value="15" title="	GigS Ess-/Aufenthaltsraum	"> 2023 </option>
+                    <option value="16" title="	Labor für Sanitär-, Heizungs- und Klimatechnik	"> 2024 </option>
+                    <option value="17" title="	Abteilungsleiterbüro	"> 2101 </option>
+                    <option value="18" title="	Unterrichtsraum	"> 2102 </option>
+                    <option value="19" title="	Unterrichtsraum	"> 2103 </option>
+                    <option value="20" title="	Unterrichtsraum	"> 2106 </option>
+                    <option value="21" title="	Unterrichtsraum	"> 2115 </option>
+                    <option value="22" title="	Unterrichtsraum	"> 2118 </option>
+                    <option value="23" title="	Unterrichtsraum	"> 2119 </option>
+                    <option value="24" title="	Unterrichtsraum mit PCs	"> 2120 </option>
+                    <option value="25" title="	Computerraum 4	"> 2202 </option>
+                    <option value="26" title="	Netzwerklabor	"> 2203 </option>
+                    <option value="27" title="	Labor Physik	"> 2206 </option>
+                    <option value="28" title="	Unterrichtsraum	"> 2208 </option>
+                    <option value="29" title="	Unterrichtsraum	"> 2214 </option>
+                    <option value="30" title="	Klausurraum Haus 2	"> 2217 </option>
+                    <option value="31" title="	Unterrichtsraum	"> 2218 </option>
+                    <option value="32" title="	Computerraum 1	"> 2303 </option>
+                    <option value="33" title="	Computerraum 2	"> 2304 </option>
+                    <option value="34" title="	Computerraum 3	"> 2307 </option>
+                    <option value="35" title="	Pädagogisches Zentrum	"> 3001 </option>
+                    <option value="36" title="	Maschinenraum Holz	"> 3007 </option>
+                    <option value="37" title="	SRT Labor Maschinenbautechnik	"> 3008 </option>
+                    <option value="38" title="SRT Montageraum"> 3009 </option>
+                    <option value="39" title="	Werkstatt für Holz-Grundbildung	">3011</option>
+                    <option value="40" title="	Unterrichtsraum	"> 3101 </option>
+                    <option value="41" title="	Unterrichtsraum	"> 3104 </option>
+                    <option value="42" title="	Unterrichtsraum	"> 3109 </option>
+                    <option value="43" title="	Computerraum Haus 3	"> 3113 </option>
+                    <option value="44" title="	Unterrichtsraum	"> 3116 </option>
+                    <option value="45" title="	Unterrichtsraum	"> 3201 </option>
+                    <option value="46" title="	Unterrichtsraum	"> 3204 </option>
+                    <option value="47" title="	Unterrichtsraum	"> 3209 </option>
+                    <option value="48" title="	Unterrichtsraum	"> 3212 </option>
+                    <option value="49" title="	Arbeitsraum Maler	"> 3213 </option>
+                    <option value="50" title="	Besprechungsraum Haus 3	"> 3214 </option>
+                    <option value="51" title="	Labor Kfz-Fahrwerkstechnik	"> 4001 </option>
+                    <option value="52" title="	Labor Kfz-Motortechnik	"> 4002 </option>
+                    <option value="53" title="	Labor Kfz-Technik und Leistungsprüfstand	"> 4004 </option>
+                    <option value="54" title="		"> 4006 </option>
+                    <option value="55" title="	Unterrichtsraum	"> 4011 </option>
+                    <option value="56" title="	Büro Sozialarbeiter	"> 4106 </option>
+                    <option value="57" title="	Besprechungsraum Haus 4	"> 4112 </option>
+                    <option value="58" title="	Büro IT-Administrator	"> 4113 </option>
+                    <option value="59" title="	Lehrerzimmer Haus 5	"> 5001 </option>
+                    <option value="60" title="	Labor für Fertigungstechnik TG	"> 5002 </option>
+                    <option value="61" title="	Differenzierungsraum	"> 5004 </option>
+                    <option value="62" title="	Bankraum	"> 5005 </option>
+                    <option value="63" title="	Projektraum	"> 6014 </option>
+                    <option value="64" title="	Werkststt für Metallgrundbildung I	"> 6015 </option>
+                    <option value="65" title="	Werkstatt Bautechnik	"> 6026 </option>
+                    <option value="66" title="	Labor Schweißtechnik	"> 6032 </option>
+                    <option value="67" title="	Labor für Fertigungstechnik	"> 6101 </option>
+                    <option value="68" title="	Labor für CNC-Frästechnik	"> 6102 </option>
+                    <option value="69" title="	Labor für CNC-Drehtechnik	"> 6103 </option>
+                    <option value="70" title="	Labor für Frästechnik	"> 6111 </option>
+                    <option value="71" title="	Werkstatt für Metallgrundbildung II	"> 6126 </option>
+                    <option value="72" title="	Gravierwerkstatt	"> 6127 </option>
+                    <option value="73" title="	Unterrichstraum	"> 6128 </option>
+                    <option value="74" title="	Unterrichtsraum	"> 6130 </option>
+                    <option value="75" title="	Differenzierungsraum	"> 6202 </option>
+                    <option value="76" title="	Unterrichtsraum mit PCs	"> 6203 </option>
+                    <option value="77" title="	Unterrichtsraum	"> 6204 </option>
+                    <option value="78" title="	Großer Mehrzweckraum	"> 6205 </option>
+                    <option value="79" title="	Labor f. zerstör. Werkstoffprüfung	"> 7001 </option>
+                    <option value="80" title="	Unterrichtsraum	"> 7022 </option>
+                    <option value="81" title="	Unterrichtsraum	"> 7024 </option>
+                    <option value="82" title="	Unterrichtsraum	"> 7028 </option>
+                    <option value="83" title="	Labor für Präparationstechnik	"> 7101 </option>
+                    <option value="84" title="	Labor für Mikroskopie	"> 7110 </option>
+                    <option value="85" title="	Labor Fototechnik	"> 7117 </option>
+                    <option value="86" title="	Unterrichtraum	"> 7118 </option>
+                    <option value="87" title="	Unterrichtsraum	"> 7119 </option>
+                    <option value="88" title="	Unterrichtsraum	"> 7206 </option>
+                    <option value="89" title="	Aula	"> 7207 </option>
+                    <option value="90" title="	MAC Raum 2 SKA	"> 7208 </option>
+                    <option value="91" title="	Unterrichtsraum	"> 7210 </option>
+                    <option value="92" title="	Unterrichtsraum SKA	"> 7301 </option>
+                    <option value="93" title="	Unterrichtsraum  SKA	"> 7305 </option>
+                    <option value="94" title="	Unterrichtsraum SKA	"> 7306 </option>
+                    <option value="95" title="	Computerraum SKA	"> 7310 </option>
+                    <option value="96" title="	Unterrichtsraum SKA	"> 7311 </option>
+                    <option value="97" title="	MAC Raum 1	"> 8001 </option>
+                    <option value="98" title="	Werkstatt Offsetdruck/Siebdruck	"> 8002 </option>
+                    <option value="99" title="	Chemielabor	"> 8006 </option>
+                    <option value="100" title="	Unterrichtsraum	"> 8008 </option>
+                    <option value="101" title="	Werkstatt Galvanotechnik	"> 8009 </option>
+                    <option value="102" title="	Schleiferei Galvanotechnik	"> 8010 </option>
+                    <option value="103" title="	Galvanik	"> 8012 </option>
+                    <option value="104" title="	Unterrichtsraum	"> 8101 </option>
+                    <option value="105" title="	Unterrichtsraum	"> 8105 </option>
+                    <option value="106" title="	Unterrichtsraum	"> 8106 </option>
+                    <option value="107" title="	Halle Eintrachtstr. 31	"> ET </option>
+                    <option value="108" title="	Klingenhalle 1	"> KH1 </option>
+                    <option value="109" title="	Klingenhalle 2	"> KH2 </option>
+                    <option value="110" title="	Klingenhalle 3	"> KH3 </option>
+                    <option value="111" title="	Schwimmhalle Klingenhalle	"> KHS </option>
+                    <option value="112" title="	Küche Wohnheim	"> Küche </option>
+                    <option value="113" title="	kein Raum nötig	"> ohne </option>
+                    <option value="114" title="	SKA-Räume 7301-7311	"> SKA </option>
+                    <option value="115" title="	Sportplatz	"> Sp.Platz </option>
+                  </select></td>
+                <td><select id="Fachraum">
+                    <option value="1" title="Werkstatt Elektrotechnik">1001</option>
+                    <option value="2" title="Labor für elektrische Anlagen">1003</option>
+                    <option value="3" title="	Unterrichtsraum	">1004</option>
+                    <option value="4" title="	Labor für Elektronik	">1102</option>
+                    <option value="5" title="	Unterrichtsraum	">1104</option>
+                    <option value="6" title="	SRT-Labor Elektrotechnik	"> 1110 </option>
+                    <option value="7" title="	Unterrichtsraum	"> 1201 </option>
+                    <option value="8" title="	Hörsaal I	"> 1202 </option>
+                    <option value="9" title="	Labor für Grundlagen der Elektrotechnik	"> 1206 </option>
+                    <option value="10" title="	Hörsaal II	"> 1207 </option>
+                    <option value="11" title="	Religionsraum 1	"> 2001 </option>
+                    <option value="12" title="	Religionsraum 2	"> 2002 </option>
+                    <option value="13" title="	Unterrichtsraum	"> 2005 </option>
+                    <option value="14" title="	Beratungsteam	"> 2008 </option>
+                    <option value="15" title="	GigS Ess-/Aufenthaltsraum	"> 2023 </option>
+                    <option value="16" title="	Labor für Sanitär-, Heizungs- und Klimatechnik	"> 2024 </option>
+                    <option value="17" title="	Abteilungsleiterbüro	"> 2101 </option>
+                    <option value="18" title="	Unterrichtsraum	"> 2102 </option>
+                    <option value="19" title="	Unterrichtsraum	"> 2103 </option>
+                    <option value="20" title="	Unterrichtsraum	"> 2106 </option>
+                    <option value="21" title="	Unterrichtsraum	"> 2115 </option>
+                    <option value="22" title="	Unterrichtsraum	"> 2118 </option>
+                    <option value="23" title="	Unterrichtsraum	"> 2119 </option>
+                    <option value="24" title="	Unterrichtsraum mit PCs	"> 2120 </option>
+                    <option value="25" title="	Computerraum 4	"> 2202 </option>
+                    <option value="26" title="	Netzwerklabor	"> 2203 </option>
+                    <option value="27" title="	Labor Physik	"> 2206 </option>
+                    <option value="28" title="	Unterrichtsraum	"> 2208 </option>
+                    <option value="29" title="	Unterrichtsraum	"> 2214 </option>
+                    <option value="30" title="	Klausurraum Haus 2	"> 2217 </option>
+                    <option value="31" title="	Unterrichtsraum	"> 2218 </option>
+                    <option value="32" title="	Computerraum 1	"> 2303 </option>
+                    <option value="33" title="	Computerraum 2	"> 2304 </option>
+                    <option value="34" title="	Computerraum 3	"> 2307 </option>
+                    <option value="35" title="	Pädagogisches Zentrum	"> 3001 </option>
+                    <option value="36" title="	Maschinenraum Holz	"> 3007 </option>
+                    <option value="37" title="	SRT Labor Maschinenbautechnik	"> 3008 </option>
+                    <option value="38" title="SRT Montageraum"> 3009 </option>
+                    <option value="39" title="	Werkstatt für Holz-Grundbildung	">3011</option>
+                    <option value="40" title="	Unterrichtsraum	"> 3101 </option>
+                    <option value="41" title="	Unterrichtsraum	"> 3104 </option>
+                    <option value="42" title="	Unterrichtsraum	"> 3109 </option>
+                    <option value="43" title="	Computerraum Haus 3	"> 3113 </option>
+                    <option value="44" title="	Unterrichtsraum	"> 3116 </option>
+                    <option value="45" title="	Unterrichtsraum	"> 3201 </option>
+                    <option value="46" title="	Unterrichtsraum	"> 3204 </option>
+                    <option value="47" title="	Unterrichtsraum	"> 3209 </option>
+                    <option value="48" title="	Unterrichtsraum	"> 3212 </option>
+                    <option value="49" title="	Arbeitsraum Maler	"> 3213 </option>
+                    <option value="50" title="	Besprechungsraum Haus 3	"> 3214 </option>
+                    <option value="51" title="	Labor Kfz-Fahrwerkstechnik	"> 4001 </option>
+                    <option value="52" title="	Labor Kfz-Motortechnik	"> 4002 </option>
+                    <option value="53" title="	Labor Kfz-Technik und Leistungsprüfstand	"> 4004 </option>
+                    <option value="54" title="		"> 4006 </option>
+                    <option value="55" title="	Unterrichtsraum	"> 4011 </option>
+                    <option value="56" title="	Büro Sozialarbeiter	"> 4106 </option>
+                    <option value="57" title="	Besprechungsraum Haus 4	"> 4112 </option>
+                    <option value="58" title="	Büro IT-Administrator	"> 4113 </option>
+                    <option value="59" title="	Lehrerzimmer Haus 5	"> 5001 </option>
+                    <option value="60" title="	Labor für Fertigungstechnik TG	"> 5002 </option>
+                    <option value="61" title="	Differenzierungsraum	"> 5004 </option>
+                    <option value="62" title="	Bankraum	"> 5005 </option>
+                    <option value="63" title="	Projektraum	"> 6014 </option>
+                    <option value="64" title="	Werkststt für Metallgrundbildung I	"> 6015 </option>
+                    <option value="65" title="	Werkstatt Bautechnik	"> 6026 </option>
+                    <option value="66" title="	Labor Schweißtechnik	"> 6032 </option>
+                    <option value="67" title="	Labor für Fertigungstechnik	"> 6101 </option>
+                    <option value="68" title="	Labor für CNC-Frästechnik	"> 6102 </option>
+                    <option value="69" title="	Labor für CNC-Drehtechnik	"> 6103 </option>
+                    <option value="70" title="	Labor für Frästechnik	"> 6111 </option>
+                    <option value="71" title="	Werkstatt für Metallgrundbildung II	"> 6126 </option>
+                    <option value="72" title="	Gravierwerkstatt	"> 6127 </option>
+                    <option value="73" title="	Unterrichstraum	"> 6128 </option>
+                    <option value="74" title="	Unterrichtsraum	"> 6130 </option>
+                    <option value="75" title="	Differenzierungsraum	"> 6202 </option>
+                    <option value="76" title="	Unterrichtsraum mit PCs	"> 6203 </option>
+                    <option value="77" title="	Unterrichtsraum	"> 6204 </option>
+                    <option value="78" title="	Großer Mehrzweckraum	"> 6205 </option>
+                    <option value="79" title="	Labor f. zerstör. Werkstoffprüfung	"> 7001 </option>
+                    <option value="80" title="	Unterrichtsraum	"> 7022 </option>
+                    <option value="81" title="	Unterrichtsraum	"> 7024 </option>
+                    <option value="82" title="	Unterrichtsraum	"> 7028 </option>
+                    <option value="83" title="	Labor für Präparationstechnik	"> 7101 </option>
+                    <option value="84" title="	Labor für Mikroskopie	"> 7110 </option>
+                    <option value="85" title="	Labor Fototechnik	"> 7117 </option>
+                    <option value="86" title="	Unterrichtraum	"> 7118 </option>
+                    <option value="87" title="	Unterrichtsraum	"> 7119 </option>
+                    <option value="88" title="	Unterrichtsraum	"> 7206 </option>
+                    <option value="89" title="	Aula	"> 7207 </option>
+                    <option value="90" title="	MAC Raum 2 SKA	"> 7208 </option>
+                    <option value="91" title="	Unterrichtsraum	"> 7210 </option>
+                    <option value="92" title="	Unterrichtsraum SKA	"> 7301 </option>
+                    <option value="93" title="	Unterrichtsraum  SKA	"> 7305 </option>
+                    <option value="94" title="	Unterrichtsraum SKA	"> 7306 </option>
+                    <option value="95" title="	Computerraum SKA	"> 7310 </option>
+                    <option value="96" title="	Unterrichtsraum SKA	"> 7311 </option>
+                    <option value="97" title="	MAC Raum 1	"> 8001 </option>
+                    <option value="98" title="	Werkstatt Offsetdruck/Siebdruck	"> 8002 </option>
+                    <option value="99" title="	Chemielabor	"> 8006 </option>
+                    <option value="100" title="	Unterrichtsraum	"> 8008 </option>
+                    <option value="101" title="	Werkstatt Galvanotechnik	"> 8009 </option>
+                    <option value="102" title="	Schleiferei Galvanotechnik	"> 8010 </option>
+                    <option value="103" title="	Galvanik	"> 8012 </option>
+                    <option value="104" title="	Unterrichtsraum	"> 8101 </option>
+                    <option value="105" title="	Unterrichtsraum	"> 8105 </option>
+                    <option value="106" title="	Unterrichtsraum	"> 8106 </option>
+                    <option value="107" title="	Halle Eintrachtstr. 31	"> ET </option>
+                    <option value="108" title="	Klingenhalle 1	"> KH1 </option>
+                    <option value="109" title="	Klingenhalle 2	"> KH2 </option>
+                    <option value="110" title="	Klingenhalle 3	"> KH3 </option>
+                    <option value="111" title="	Schwimmhalle Klingenhalle	"> KHS </option>
+                    <option value="112" title="	Küche Wohnheim	"> Küche </option>
+                    <option value="113" title="	kein Raum nötig	"> ohne </option>
+                    <option value="114" title="	SKA-Räume 7301-7311	"> SKA </option>
+                    <option value="115" title="	Sportplatz	"> Sp.Platz </option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td><button type="submit" onclick="setNewUnterricht(1)">Submit</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

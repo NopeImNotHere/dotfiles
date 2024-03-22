@@ -1,0 +1,43 @@
+a2318f72-d71e-441e-850f-45316f9d4b16:
+  type: branch
+  id: e731c863-de29-4e94-81db-e56eca7cecfd
+  direction: horizontal
+  sizes:
+    - 50
+    - 50
+  nodes:
+    - type: leaf
+      id: 3b17ba2c-a73b-417b-a69d-269e90f29d33
+      openFiles:
+        - path: /home/ninh/Documents/Zettlr Tutorial/welcome.md
+          pinned: false
+      activeFile:
+        path: /home/ninh/Documents/Zettlr Tutorial/welcome.md
+        pinned: false
+    - type: branch
+      id: a4c34015-e906-445d-a5b9-d97a174ac667
+      direction: vertical
+      sizes:
+        - 50
+        - 50
+      nodes:
+        - type: leaf
+          id: 4c8bdbea-98cd-4d0e-8b8a-5f3bd31bd54e
+          openFiles:
+            - path: /home/ninh/Documents/Zettlr Tutorial/split-view-intro.md
+              pinned: false
+          activeFile:
+            path: /home/ninh/Documents/Zettlr Tutorial/split-view-intro.md
+            pinned: false
+        - type: leaf
+          id: 87cf32fc-57f3-45fe-a995-38fca70cddb2
+          openFiles:
+            - path: /home/ninh/Documents/Zettlr Tutorial/helpful-links.md
+              pinned: false
+            - path: /home/ninh/Documents/Zettlr Tutorial/citing.md
+              pinned: false
+            - path: /home/ninh/Documents/Zettlr Tutorial/references.json
+              pinned: false
+          activeFile:
+            path: /home/ninh/Documents/Zettlr Tutorial/citing.md
+            pinned: false

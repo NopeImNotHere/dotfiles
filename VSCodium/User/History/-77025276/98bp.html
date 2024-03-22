@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unterricht Overview</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Unterricht Overview</h2>
+  <button onclick="showDetails()">Show Details</button>
+
+  <table id="overviewTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Turnus</th>
+        <th>Stunden</th>
+        <th>Letztes Update</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>13</td>
+        <td>3</td>
+        <td>12</td>
+        <td>2024-01-24 10:05:40</td>
+      </tr>
+      <tr>
+        <td>22</td>
+        <td>3</td>
+        <td>23</td>
+        <td>2024-01-30 11:20:41</td>
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+
+  <div id="details" style="display: none;">
+    <h2>Complete Data</h2>
+    <table>
+      <!-- Add complete data here -->
+    </table>
+  </div>
+
+  <script>
+    function showDetails() {
+      var details = document.getElementById("details");
+      var overviewTable = document.getElementById("overviewTable");
+
+      if (details.style.display === "none") {
+        details.style.display = "block";
+        overviewTable.style.display = "none"; // Hide overview table
+      } else {
+        details.style.display = "none";
+        overviewTable.style.display = "table"; // Show overview table
+      }
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+[
+  {
+    "lesson": {
+      "PK_Unterricht": 45,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 22,
+      "Zusatzinformation": "123",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-02-06 12:31:26"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 45,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [],
+    "mainRooms": [],
+    "subjectRooms": []
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 46,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 22,
+      "Zusatzinformation": "123",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-02-06 12:31:37"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 46,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [],
+    "mainRooms": [],
+    "subjectRooms": []
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 47,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 22,
+      "Zusatzinformation": "123",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-02-06 12:31:37"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 47,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [],
+    "mainRooms": [],
+    "subjectRooms": []
+  }
+]

@@ -1,0 +1,24 @@
+2024-03-21 23:26:02.004 [info] Extension host with pid 9998 started
+2024-03-21 23:26:02.004 [info] Skipping acquiring lock for /home/ninh/.config/VSCodium/User/workspaceStorage/267dc399b67678453d80b55e95af3bd6.
+2024-03-21 23:26:02.035 [info] ExtensionService#_doActivateExtension HTMLHint.vscode-htmlhint, startup: false, activationEvent: 'onFileSystem:file'
+2024-03-21 23:26:02.049 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-21 23:26:02.053 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-03-21 23:26:02.105 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:html'
+2024-03-21 23:26:02.634 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-21 23:26:02.635 [info] ExtensionService#_doActivateExtension Codemos.codemos-modern, startup: true, activationEvent: '*'
+2024-03-21 23:26:02.697 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-03-21 23:26:02.706 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: true, activationEvent: '*'
+2024-03-21 23:26:02.761 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-21 23:26:02.785 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-21 23:26:02.813 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-21 23:26:02.979 [info] Eager extensions activated
+2024-03-21 23:26:02.980 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:02.981 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:02.985 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:02.987 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:02.991 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:03.005 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:03.026 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:26:03.028 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-21 23:29:02.792 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-21 23:29:02.798 [info] Extension host with pid 9998 exiting with code 0

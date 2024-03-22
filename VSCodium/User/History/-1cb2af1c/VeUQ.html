@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paginator Test</title>
+  <style>
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="paginator"></div>
+  <script>
+    class Paginator {
+      constructor(data, itemsPerPage, key) {
+        this.data = data;
+        this.itemsPerPage = itemsPerPage;
+        this.currentPage = 1;
+        this.key = key;
+      }
+
+      getTotalPages() {
+        return Math.ceil(this.data.length / this.itemsPerPage);
+      }
+
+      goToPage(pageNumber) {
+        if (pageNumber < 1 || pageNumber > this.getTotalPages()) {
+          console.error("Invalid page number");
+          return;
+        }
+        this.currentPage = pageNumber;
+        this.displayCurrentPage();
+      }
+
+      nextPage() {
+        if (this.currentPage < this.getTotalPages()) {
+          this.currentPage++;
+          this.displayCurrentPage();
+        }
+      }
+
+      prevPage() {
+        if (this.currentPage > 1) {
+          this.currentPage--;
+          this.displayCurrentPage();
+        }
+      }
+
+      displayCurrentPage() {
+        const start = (this.currentPage - 1) * this.itemsPerPage;
+        let end = start + this.itemsPerPage;
+        if (end > this.data.length) {
+          end = this.data.length; // Adjust end index for the last page
+        }
+        const currentPageData = this.data.slice(start, end).map(item => item[this.key]);
+        document.getElementById('paginator').innerText = `Page ${this.currentPage}: ${currentPageData.join(', ')}`;
+      }
+    }
+
+    // Example usage:
+    const data = Array.from({ length: 56 }, (_, i) => i + 1); // Example data from 1 to 100
+    const itemsPerPage = 10;
+    const paginator = new Paginator(data, itemsPerPage);
+    paginator.displayCurrentPage();
+
+    // Button event listeners
+    document.getElementById('prevBtn').addEventListener('click', () => paginator.prevPage());
+    document.getElementById('nextBtn').addEventListener('click', () => paginator.nextPage());
+
+    function backwards() {
+      paginator.prevPage();
+      paginator.displayCurrentPage();
+    }
+
+    function forwards() {
+      paginator.nextPage();
+      paginator.displayCurrentPage();
+    }
+  </script>
+  <button id="prevBtn" onclick="backwards()">Previous Page</button>
+  <button id="nextBtn" onclick="forwards()">Next Page</button>
+</body>
+
+</html>

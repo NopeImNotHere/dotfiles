@@ -1,0 +1,29 @@
+<div id="ClassData" style="margin-top: 100px;">
+  <table id="Stammdaten">
+    <tbody>
+      <tr>
+        <th>Klassenlehrer</th>
+        <th>stellvertretender Klassenlehrer</th>
+        <th>Unterrichtstage</th>
+        <th>Hinweise</th>
+        <th>Schüleranzahl</th>
+        <th>Test</th>
+      </tr>
+      <tr>
+        <td><select id="klSelect">
+            <option value="1">ALK</option>
+            <option value="83">WOL</option>
+          </select></td>
+        <td> <select id="stvKLSelect">
+            <option value="1">ALK</option>
+            <option value="82">WOF</option>
+            <option value="83" selected="">WOL</option>
+          </select></td>
+        <td><input type="text" id="unterrichtsTage" value="4"></td>
+        <td><input type="text" id="hinweise" value=""></td>
+        <td><input type="number" id="schuelerAnzahl" value="13"></td>
+        <td><button onclick="changeStammDaten(1)">Einlesen</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

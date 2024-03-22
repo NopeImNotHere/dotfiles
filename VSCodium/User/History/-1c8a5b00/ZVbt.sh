@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Check if nmcli is available
+command -v nmcli > /dev/null 2>&1 || { echo "Error: nmcli not found."; exit 1; }
+
+# Check if --toggle argument is provided
+if [ "$1" == "--toggle" ]; then
+    # Toggle WiFi
+    wifi_status=$(nmcli -t -f WIFI g)
+    if [ "$wifi_status" == "enabled" ]; then
+        nmcli r all off
+        rfkill unblock bluetooth
+    else
+        nmcli r all on
+        rfkill unblock bluetooth
+    fi
+fi
+
+# Display the current WiFi status
+wifi_status=$(nmcli -t -f WIFI g)
+if [ "$wifi_status" == "enabled" ]; then
+    echo "%{F#ADD8E6}󰀝%{F-}"
+else
+    echo "%{F#f00}󰀝%{F-}"
+fi

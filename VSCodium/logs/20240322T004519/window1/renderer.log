@@ -1,0 +1,158 @@
+2024-03-22 00:45:21.451 [info] Started local extension host with pid 31914.
+2024-03-22 00:45:24.233 [info] [perf] Render performance baseline is 35ms
+2024-03-22 00:45:24.843 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:58:15.310 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/3Qm2.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/3Qm2.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 00:58:21.718 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/pYgO.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/pYgO.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 00:58:56.074 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/Qxc1.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/Qxc1.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 00:59:34.581 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/GaXr.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/GaXr.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:00:00.475 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/nbv0.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/nbv0.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:00:21.309 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/vJK3.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/vJK3.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:01:24.637 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/dHwB.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/dHwB.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:01:36.587 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/ymzJ.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/ymzJ.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:03:11.351 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/y3E2.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/y3E2.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:04:10.764 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/vqQp.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/vqQp.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:05:18.266 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/tMiM.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/tMiM.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:05:19.882 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/U3XH.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/U3XH.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:06:16.999 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/TbCA.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/TbCA.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:07:28.573 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/YA09.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/YA09.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:08:20.004 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/Wp4C.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/Wp4C.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:09:28.267 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/i5cv.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/i5cv.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:09:37.833 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/vI6i.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/vI6i.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:11:35.664 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/h7xh.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/h7xh.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:11:38.840 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/M6Xq.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/M6Xq.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:11:41.746 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/iY1q.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/iY1q.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:11:43.898 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/GnGC.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/GnGC.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:11:59.495 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/aD84.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/aD84.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:12:03.778 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/M17H.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/M17H.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:12:21.245 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/spVf.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/spVf.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:13:16.316 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/sVdl.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/sVdl.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:16:28.108 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/lG7f.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/lG7f.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:16:38.172 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/FY1V.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/FY1V.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:17:07.205 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/7FwR.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/7FwR.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:17:25.405 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/W7zR.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/W7zR.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:18:43.112 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/MX3d.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/MX3d.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)
+2024-03-22 01:19:42.201 [error] Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/YGrV.js': Unknown (FileSystemError): Error: ESPIPE: invalid seek, copyfile '/run/user/1000/gvfs/ftp:host=v2201910106725100809.hotsrv.de/Gemeinschaftsprojekt/Timon/beta/script.js' -> '/home/ninh/.config/VSCodium/User/History/-47e1538c/YGrV.js'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4640)
+    at S (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:54:4778)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:46711)
+    at t.doCloneFile (/usr/share/vscodium/resources/app/out/vs/code/electron-main/main.js:59:45776)

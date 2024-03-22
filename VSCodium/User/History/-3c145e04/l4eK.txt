@@ -1,0 +1,372 @@
+[
+  {
+    "lesson": {
+      "PK_Unterricht": 19,
+      "FK_Turnus": 3,
+      "FK_Schuelergruppenart": 3,
+      "Wochenstunden": 23,
+      "Zusatzinformation": "Te",
+      "FK_Schuljahr": 3,
+      "LetztesUpdate": "2024-01-30 11:12:26"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 19,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 17,
+        "FK_Unterricht": 19,
+        "FK_Lehrer": 83,
+        "FK_Fach": 66,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 17,
+          "FK_Raum": 115
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 17,
+          "FK_Raum": 115
+        },
+        {
+          "FK_Unterricht_Lehrer": 17,
+          "FK_Raum": 1
+        }
+      ]
+    ]
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 21,
+      "FK_Turnus": 3,
+      "FK_Schuelergruppenart": 3,
+      "Wochenstunden": 23,
+      "Zusatzinformation": "Te",
+      "FK_Schuljahr": 3,
+      "LetztesUpdate": "2024-01-30 11:20:21"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 21,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 19,
+        "FK_Unterricht": 21,
+        "FK_Lehrer": 83,
+        "FK_Fach": 49,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 19,
+          "FK_Raum": 100
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 19,
+          "FK_Raum": 100
+        }
+      ]
+    ]
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 22,
+      "FK_Turnus": 3,
+      "FK_Schuelergruppenart": 3,
+      "Wochenstunden": 23,
+      "Zusatzinformation": "Te",
+      "FK_Schuljahr": 3,
+      "LetztesUpdate": "2024-01-30 11:20:41"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 22,
+        "FK_Klasse": 5
+      },
+      {
+        "FK_Unterricht": 22,
+        "FK_Klasse": 6
+      },
+      {
+        "FK_Unterricht": 22,
+        "FK_Klasse": 4
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 20,
+        "FK_Unterricht": 22,
+        "FK_Lehrer": 83,
+        "FK_Fach": 49,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 20,
+          "FK_Raum": 100
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 20,
+          "FK_Raum": 100
+        }
+      ]
+    ]
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 45,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 22,
+      "Zusatzinformation": "123",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-02-06 12:31:26"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 45,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [],
+    "mainRooms": [],
+    "subjectRooms": []
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 46,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 22,
+      "Zusatzinformation": "123",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-02-06 12:31:37"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 46,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [],
+    "mainRooms": [],
+    "subjectRooms": []
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 47,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 22,
+      "Zusatzinformation": "123",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-02-06 12:31:37"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 47,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [],
+    "mainRooms": [],
+    "subjectRooms": []
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 156,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 4,
+      "Zusatzinformation": "gcfg",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-03-07 12:12:22"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 156,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 65,
+        "FK_Unterricht": 156,
+        "FK_Lehrer": 1,
+        "FK_Fach": 1,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 65,
+          "FK_Raum": 1
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 65,
+          "FK_Raum": 1
+        },
+        {
+          "FK_Unterricht_Lehrer": 65,
+          "FK_Raum": 1
+        }
+      ]
+    ]
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 157,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 0,
+      "Zusatzinformation": "gcfg",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-03-07 12:14:08"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 157,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 66,
+        "FK_Unterricht": 157,
+        "FK_Lehrer": 1,
+        "FK_Fach": 1,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 66,
+          "FK_Raum": 1
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 66,
+          "FK_Raum": 1
+        }
+      ]
+    ]
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 158,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 0,
+      "Zusatzinformation": "gcfg",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-03-07 12:14:24"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 158,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 67,
+        "FK_Unterricht": 158,
+        "FK_Lehrer": 1,
+        "FK_Fach": 1,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 67,
+          "FK_Raum": 1
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 67,
+          "FK_Raum": 1
+        }
+      ]
+    ]
+  },
+  {
+    "lesson": {
+      "PK_Unterricht": 159,
+      "FK_Turnus": 1,
+      "FK_Schuelergruppenart": 1,
+      "Wochenstunden": 0,
+      "Zusatzinformation": "",
+      "FK_Schuljahr": 1,
+      "LetztesUpdate": "2024-03-07 12:14:31"
+    },
+    "classes": [
+      {
+        "FK_Unterricht": 159,
+        "FK_Klasse": 5
+      }
+    ],
+    "teachers": [
+      {
+        "PK_Unterricht_Lehrer": 68,
+        "FK_Unterricht": 159,
+        "FK_Lehrer": 1,
+        "FK_Fach": 1,
+        "SchuelergruppeFreitext": "ToDo"
+      }
+    ],
+    "mainRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 68,
+          "FK_Raum": 1
+        }
+      ]
+    ],
+    "subjectRooms": [
+      [
+        {
+          "FK_Unterricht_Lehrer": 68,
+          "FK_Raum": 1
+        }
+      ]
+    ]
+  }
+]

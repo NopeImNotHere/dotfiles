@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "JetBrainsMono; monospace",
+    "editor.formatOnSave": true,
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "sync.gist": "1e5b6736f450ff4c359127391d5da293"
+}

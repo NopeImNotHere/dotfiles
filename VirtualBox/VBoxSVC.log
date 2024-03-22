@@ -1,0 +1,148 @@
+00:00:00.002030 main     VirtualBox XPCOM Server 7.0.14 r161095 linux.amd64 (Jan 19 2024 13:54:29) release log
+00:00:00.002032 main     Log opened 2024-03-12T08:44:13.127316000Z
+00:00:00.002033 main     Build Type: release
+00:00:00.002035 main     OS Product: Linux
+00:00:00.002036 main     OS Release: 6.7.9-arch1-1
+00:00:00.002037 main     OS Version: #1 SMP PREEMPT_DYNAMIC Fri, 08 Mar 2024 01:59:01 +0000
+00:00:00.002075 main     DMI Product Name: XMG CORE 15(M20, GTX 1650xx)
+00:00:00.002087 main     DMI Product Version: Standard
+00:00:00.002094 main     Firmware type: UEFI
+00:00:00.002355 main     Secure Boot: Disabled
+00:00:00.002395 main     Host RAM: 15407MB (15.0GB) total, 14806MB (14.4GB) available
+00:00:00.002397 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002398 main     Process ID: 2804
+00:00:00.002398 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.004536 main     IPC socket path: /tmp/.vbox-ninh-ipc/ipcd
+00:00:00.117623 nspr-2   VirtualBox: object creation starts
+00:00:00.118949 nspr-2   Home directory: '/home/ninh/.config/VirtualBox'
+00:00:00.119272 nspr-2   Loading settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.124954 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0029)
+00:00:00.125448 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.148927 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.151963 nspr-2   HostDnsMonitor: initializing
+00:00:00.152603 nspr-2   NAT: resolv.conf: nameserver 91.102.136.18
+00:00:00.152615 nspr-2   NAT: resolv.conf: nameserver 91.102.136.19
+00:00:00.152638 nspr-2   HostDnsMonitor: updating information
+00:00:00.152653 nspr-2   HostDnsMonitor: old information
+00:00:00.152657 nspr-2     no server entries
+00:00:00.152661 nspr-2     no domain set
+00:00:00.152664 nspr-2     no search string entries
+00:00:00.152668 nspr-2   HostDnsMonitor: new information
+00:00:00.152672 nspr-2     server 1: 91.102.136.18
+00:00:00.152676 nspr-2     server 2: 91.102.136.19
+00:00:00.152681 nspr-2     domain: sg-tbk.local
+00:00:00.152684 nspr-2     search string 1: sg-tbk.local
+00:00:00.158361 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.163395 nspr-2   Loading settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:00.164931 nspr-2   VirtualBox: object created
+00:00:01.099837 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.356132 nspr-2   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.360174 nspr-2   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:00:02.464861 nspr-2   Launched VM: 805316512 pid: 2853 (0xb25) frontend: GUI/Qt name: BSNW
+00:00:02.512973 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:02.877937 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.049282 nspr-6   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:03.056865 nspr-6   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:00:03.548559 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:03.648918 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:03.695691 nspr-4   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:03.794940 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:04.018680 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:04.069045 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:04.153770 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:04.170338 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:04.204671 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:07.827088 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:07.831810 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:07.854843 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:44.580359 nspr-7   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:44.587374 nspr-7   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:44.615757 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:46.572550 nspr-4   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:46.579472 nspr-4   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:46.602872 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:49.382421 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:49.400135 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:49.407200 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:49.442031 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:49.752279 nspr-4   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:49.756386 nspr-4   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:49.780604 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:51.445166 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:51.455697 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:51.460198 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:51.473038 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:00:51.476944 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:00:51.486222 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:05.156357 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:05.195500 nspr-8   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:01:05.203039 nspr-8   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:01:05.232246 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:08.558999 nspr-8   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:08.567206 nspr-8   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:01:11.544301 nspr-8   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:11.547178 nspr-8   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:01:55.341729 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:55.370101 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:55.387514 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:01:55.755829 nspr-8   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:55.760100 nspr-8   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:02:08.380006 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:02:08.641748 nspr-6   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:02:08.644970 nspr-6   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:02:08.698195 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:10.189605 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:03:32.692791 nspr-6   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:03:32.695656 nspr-6   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:03:32.802491 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:03:33.051421 nspr-6   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:33.058883 nspr-6   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:03:34.843870 nspr-7   Launched VM: 4227884176 pid: 5139 (0x1413) frontend: GUI/Qt name: BSNW
+00:03:34.890348 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:03:35.237955 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:03:35.426926 nspr-6   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:03:35.434394 nspr-6   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:03:35.930820 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:03:36.032295 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:03:36.084788 nspr-8   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlan0: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:03:36.188907 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:03:36.394691 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:03:36.551670 nspr-4   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:03:36.556131 nspr-4   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:03:36.584300 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:03:37.195944 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:03:38.967967 nspr-4   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:03:38.975345 nspr-4   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:03:39.004018 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:03:40.453119 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:03:40.458510 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:03:40.489035 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:21.919404 nspr-8   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:21.926483 nspr-8   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:04:42.640271 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:04:42.649815 nspr-5   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:04:42.656953 nspr-5   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:04:42.679168 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:52.716388 nspr-7   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:04:52.723518 nspr-7   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:04:52.745320 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:54.709925 nspr-4   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:04:54.743018 nspr-4   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:04:54.749893 nspr-4   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:04:54.774688 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:04:56.669577 nspr-8   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:04:56.683629 nspr-8   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:04:56.690759 nspr-8   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:04:56.716426 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:07:07.447152 nspr-7   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:07:07.490627 nspr-9   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:07:07.494443 nspr-9   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:07:07.519667 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:10:26.323360 nspr-4   Saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:10:26.330689 nspr-4   Finished saving settings file "/home/ninh/.config/VirtualBox/VirtualBox.xml"
+00:10:26.859361 nspr-8   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:10:26.866150 nspr-8   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:10:26.883225 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:10:27.853146 nspr-2   Saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox" with version "1.19-linux"
+00:10:27.860112 nspr-2   Finished saving settings file "/home/ninh/VirtualBox VMs/BSNW/BSNW.vbox"
+00:10:27.880828 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0

@@ -1,0 +1,92 @@
+<div id="NewLessonData" style="margin-top: 100px;">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>WochenStunden</th>
+                <th>Turnus</th>
+                <th>Schulhalbjahr</th>
+              </tr>
+              <tr>
+                <td><input type="number" id="WochenStunden"></td>
+                <td><select id="Turnus">
+                    <option value="1" title="0.5">GKW</option>
+                    <option value="2" title="0.5">UKW</option>
+                    <option value="3" title="1">wöchentlich</option>
+                  </select></td>
+                <td><select id="Schuljahr">
+                    <option value="1">1.+2. HJ</option>
+                    <option value="2">1. HJ</option>
+                    <option value="3">2. HJ</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>Hinweis</th>
+                <th>Schülergruppe</th>
+              </tr>
+              <tr>
+                <td><textarea id="Hinweis" placeholder="Hinweis"></textarea></td>
+                <td><select id="Schuelergruppe">
+                    <option value="1">Ganze Klasse</option>
+                    <option value="2">Getrennt nach Lehrer</option>
+                    <option value="3">Freier Gruppenname</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table>
+            <tbody>
+              <tr>
+                <th>Lehrer</th>
+                <th>Fach</th>
+                <th>Fachraum</th>
+                <th>Stammraum</th>
+              </tr>
+              <tr>
+                <td><select id="Lehrer">
+                    <option value="1">ALK</option>
+                    <option value="2">BEC</option>
+                    <option value="3">BUC</option>
+                    <option value="83">WOL</option>
+                  </select></td>
+                <td><select id="Fach">
+                    <option value="1" title="AEVO">Ausbildereignungsprüfung</option>
+                    <option value="2" title="Ausb.">Ausbildung Referendare</option>
+                    <option value="65" title="WT">Werkstofftechnik</option>
+                    <option value="66" title="WW">Wirtschafts- und Betriebslehre / Wirtschaftslehre</option>
+                  </select></td>
+                <td><select id="Stammraum">
+                    <option value="1" title="Werkstatt Elektrotechnik">1001</option>
+                    <option value="2" title="Labor für elektrische Anlagen">1003</option>
+                    <option value="115" title="	Sportplatz	"> Sp.Platz </option>
+                  </select></td>
+                <td><select id="Fachraum">
+                    <option value="1" title="Werkstatt Elektrotechnik">1001</option>
+                    <option value="2" title="Labor für elektrische Anlagen">1003</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td><button type="submit" onclick="setNewUnterricht(1)">Submit</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

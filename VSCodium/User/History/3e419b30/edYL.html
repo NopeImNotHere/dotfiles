@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Example</title>
+  <style>
+    #cardContainer {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin: 20px;
+    }
+
+    #cardContainer label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    #cardContainer select,
+    #cardContainer textarea,
+    #cardContainer input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="cardContainer">
+    <label for="numberInput">Wochenstunden:</label>
+    <input type="number" id="numberInput" name="Wochenstunden" required>
+
+    <label for="select1">Turnus:</label>
+    <select id="select1" name="Turnus" required>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+    </select>
+
+    <label for="select2">Schulhalbjahr:</label>
+    <select id="select2" name="Schulhalbjahr" required>
+      <option value="semester1">Semester 1</option>
+      <option value="semester2">Semester 2</option>
+    </select>
+
+    <label for="textarea">Hinweis:</label>
+    <textarea id="textarea" name="Hinweis" rows="4" required></textarea>
+
+    <label for="select3">Schülergruppe:</label>
+    <select id="select3" name="Schülergruppe" required>
+      <option value="group1">Group 1</option>
+      <option value="group2">Group 2</option>
+    </select>
+
+    <label for="select4">Lehrer:</label>
+    <select id="select4" name="Lehrer" required>
+      <option value="teacher1">Teacher 1</option>
+      <option value="teacher2">Teacher 2</option>
+    </select>
+
+    <label for="select5">Fach:</label>
+    <select id="select5" name="Fach" required>
+      <option value="subject1">Subject 1</option>
+      <option value="subject2">Subject 2</option>
+    </select>
+
+    <label for="select6">Fachraum:</label>
+    <select id="select6" name="Fachraum" required>
+      <option value="room1">Room 1</option>
+      <option value="room2">Room 2</option>
+    </select>
+
+    <label for="select7">Stammraum:</label>
+    <select id="select7" name="Stammraum" required>
+      <option value="roomA">Room A</option>
+      <option value="roomB">Room B</option>
+    </select>
+  </div>
+
+</body>
+
+</html>

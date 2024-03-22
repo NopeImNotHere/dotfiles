@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paginator Test</title>
+  <style>
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="paginator"></div>
+  <script>
+    class Paginator {
+      constructor(data, itemsPerPage, key) {
+        this.data = data;
+        this.itemsPerPage = itemsPerPage;
+        this.currentPage = 1;
+        this.key = key;
+      }
+
+      getTotalPages() {
+        return Math.ceil(this.data.length / this.itemsPerPage);
+      }
+
+      goToPage(pageNumber) {
+        if (pageNumber < 1 || pageNumber > this.getTotalPages()) {
+          console.error("Invalid page number");
+          return;
+        }
+        this.currentPage = pageNumber;
+        this.displayCurrentPage();
+      }
+
+      nextPage() {
+        if (this.currentPage < this.getTotalPages()) {
+          this.currentPage++;
+          this.displayCurrentPage();
+        }
+      }
+
+      prevPage() {
+        if (this.currentPage > 1) {
+          this.currentPage--;
+          this.displayCurrentPage();
+        }
+      }
+
+      displayCurrentPage() {
+        const start = (this.currentPage - 1) * this.itemsPerPage;
+        let end = start + this.itemsPerPage;
+        if (end > this.data.length) {
+          end = this.data.length; // Adjust end index for the last page
+        }
+        const currentPageData = this.data.slice(start, end).map(item => item[this.key]);
+        document.getElementById('paginator').innerText = `Page ${this.currentPage}: ${currentPageData.join(', ')}`;
+      }
+    }
+
+    // Example usage:
+    const data = {
+      "Unterricht": [
+        {
+          "PK_Unterricht": 19,
+          "FK_Turnus": 3,
+          "FK_Schuelergruppenart": 3,
+          "Wochenstunden": 23,
+          "Zusatzinformation": "Te",
+          "FK_Schuljahr": 3,
+          "LetztesUpdate": "2024-01-30 11:12:26"
+        },
+        {
+          "PK_Unterricht": 21,
+          "FK_Turnus": 3,
+          "FK_Schuelergruppenart": 3,
+          "Wochenstunden": 23,
+          "Zusatzinformation": "Te",
+          "FK_Schuljahr": 3,
+          "LetztesUpdate": "2024-01-30 11:20:21"
+        },
+        {
+          "PK_Unterricht": 22,
+          "FK_Turnus": 3,
+          "FK_Schuelergruppenart": 3,
+          "Wochenstunden": 23,
+          "Zusatzinformation": "Te",
+          "FK_Schuljahr": 3,
+          "LetztesUpdate": "2024-01-30 11:20:41"
+        },
+        {
+          "PK_Unterricht": 45,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 22,
+          "Zusatzinformation": "123",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-02-06 12:31:26"
+        },
+        {
+          "PK_Unterricht": 46,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 22,
+          "Zusatzinformation": "123",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-02-06 12:31:37"
+        },
+        {
+          "PK_Unterricht": 47,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 22,
+          "Zusatzinformation": "123",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-02-06 12:31:37"
+        },
+        {
+          "PK_Unterricht": 156,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 4,
+          "Zusatzinformation": "gcfg",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-03-07 12:12:22"
+        },
+        {
+          "PK_Unterricht": 157,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 0,
+          "Zusatzinformation": "gcfg",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-03-07 12:14:08"
+        },
+        {
+          "PK_Unterricht": 158,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 0,
+          "Zusatzinformation": "gcfg",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-03-07 12:14:24"
+        },
+        {
+          "PK_Unterricht": 159,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 0,
+          "Zusatzinformation": "",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-03-07 12:14:31"
+        },
+        {
+          "PK_Unterricht": 167,
+          "FK_Turnus": 1,
+          "FK_Schuelergruppenart": 1,
+          "Wochenstunden": 333,
+          "Zusatzinformation": "Test",
+          "FK_Schuljahr": 1,
+          "LetztesUpdate": "2024-03-20 14:38:20"
+        }
+      ]
+    }
+
+    const itemsPerPage = 10; // Adjust the number of items per page as needed
+    const key = "PK_Unterricht"; // Specify the key to paginate on
+
+    const paginator = new Paginator(data.Unterricht, itemsPerPage, key);
+    paginator.displayCurrentPage();
+
+    // Button event listeners
+    document.getElementById('prevBtn').addEventListener('click', () => paginator.prevPage());
+    document.getElementById('nextBtn').addEventListener('click', () => paginator.nextPage());
+  </script>
+  <button id="prevBtn">Previous Page</button>
+  <button id="nextBtn">Next Page</button>
+</body>
+
+</html>

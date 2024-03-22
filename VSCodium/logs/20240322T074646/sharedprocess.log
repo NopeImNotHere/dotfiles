@@ -1,0 +1,24 @@
+2024-03-22 07:46:55.060 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.097 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.144 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.194 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.240 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.283 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.341 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:55.354 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:57.237 [info] Getting Manifest... esbenp.prettier-vscode
+2024-03-22 07:46:57.724 [info] Installing extension: esbenp.prettier-vscode
+2024-03-22 07:46:57.798 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:57.875 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:57.951 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 07:46:59.921 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/share/vscodium/resources/app/out/bootstrap-amd.js
+- /usr/share/vscodium/resources/app/out/bootstrap-fork.js
+- 
+2024-03-22 07:46:59.927 [info] Extension signature verification is not done: esbenp.prettier-vscode
+2024-03-22 07:47:00.111 [info] Extracted extension to file:///home/ninh/.vscode-oss/extensions/esbenp.prettier-vscode-10.4.0-universal: esbenp.prettier-vscode
+2024-03-22 07:47:00.115 [info] Renamed to /home/ninh/.vscode-oss/extensions/esbenp.prettier-vscode-10.4.0-universal
+2024-03-22 07:47:00.119 [info] Extracting extension completed. esbenp.prettier-vscode
+2024-03-22 07:47:00.128 [info] Extension installed successfully: esbenp.prettier-vscode
+2024-03-22 07:47:00.134 [info] Marked extension as uninstalled esbenp.prettier-vscode-10.3.0-universal

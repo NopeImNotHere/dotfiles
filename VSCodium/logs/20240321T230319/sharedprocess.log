@@ -1,0 +1,44 @@
+2024-03-21 23:03:23.159 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:23.226 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:23.312 [info] Deleted uninstalled extension from disk esbenp.prettier-vscode /home/ninh/.vscode-oss/extensions/esbenp.prettier-vscode-10.1.0-universal
+2024-03-21 23:03:23.385 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/esbenp.prettier-vscode-10.1.0-universal.6da97672.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ninh/.vscode-oss/extensions/esbenp.prettier-vscode-10.1.0-universal.6da97672.vsctmp'
+    at r.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35658)
+    at a (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:35793)
+    at i.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:48621)
+    at i.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:39216)
+    at async w.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:21720)
+    at async Y.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:102:133810)
+2024-03-21 23:03:24.069 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:24.081 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:24.092 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:24.115 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:24.538 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:25.996 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:03:25.998 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:08:26.861 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:13:27.858 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:18:28.829 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:23:29.867 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:02.000 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:02.119 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:02.421 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:02.433 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:02.576 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:04.288 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:26:04.310 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:28:29.938 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:33:29.977 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:38:30.870 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:43:31.869 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:48:32.859 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:53:33.817 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-21 23:58:34.816 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:03:35.810 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:08:36.810 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:13:36.907 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:18:36.948 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:23:36.990 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:28:37.794 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:33:37.824 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:38:38.832 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.
+2024-03-22 00:43:39.834 [warning] [codemos-modern]: Couldn't find message for key ext.conf.textDecorations.forComments.enum.strikethrough.desc.

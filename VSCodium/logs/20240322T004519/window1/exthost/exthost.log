@@ -1,0 +1,31 @@
+2024-03-22 00:45:21.734 [info] Extension host with pid 31914 started
+2024-03-22 00:45:21.734 [info] Skipping acquiring lock for /home/ninh/.config/VSCodium/User/workspaceStorage/4d75d84e0704a23a6d3a814de64f1c09.
+2024-03-22 00:45:21.765 [info] ExtensionService#_doActivateExtension HTMLHint.vscode-htmlhint, startup: false, activationEvent: 'onFileSystem:file'
+2024-03-22 00:45:21.783 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-22 00:45:21.845 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-22 00:45:21.847 [info] ExtensionService#_doActivateExtension Codemos.codemos-modern, startup: true, activationEvent: '*'
+2024-03-22 00:45:21.902 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2024-03-22 00:45:21.914 [info] ExtensionService#_doActivateExtension oouo-diogo-perdigao.docthis, startup: true, activationEvent: '*'
+2024-03-22 00:45:21.965 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-22 00:45:21.987 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-22 00:45:22.014 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-03-22 00:45:22.138 [info] Eager extensions activated
+2024-03-22 00:45:22.139 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.141 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.144 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.146 [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.150 [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.163 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.184 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:22.186 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-03-22 00:45:24.571 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-03-22 00:45:24.592 [info] ExtensionService#_doActivateExtension Prisma.prisma, startup: false, activationEvent: 'onLanguage:javascript'
+2024-03-22 00:45:24.644 [info] ExtensionService#_doActivateExtension rvest.vs-code-prettier-eslint, startup: false, activationEvent: 'onLanguage:javascript'
+2024-03-22 00:45:24.666 [info] ExtensionService#_doActivateExtension svelte.svelte-vscode, startup: false, activationEvent: 'onLanguage:javascript'
+2024-03-22 00:45:35.844 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-03-22 00:45:35.856 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-03-22 00:45:35.899 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-03-22 00:46:38.635 [warning] vscode.json-language-features - Code actions of kind 'source.fixAll 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-22 00:46:38.637 [warning] vscode.json-language-features - Code actions of kind 'source.sortImports 'requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-03-22 00:57:37.693 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-03-22 00:59:08.576 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'

@@ -1,0 +1,6 @@
+2024/03/21-11:11:07.174 3ad3 Reusing MANIFEST /home/ninh/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/03/21-11:11:07.174 3ad3 Recovering log #12
+2024/03/21-11:11:07.175 3ad3 Reusing old log /home/ninh/.config/discord/Local Storage/leveldb/000012.log 
+2024/03/21-11:14:56.758 4fb0 Level-0 table #16: started
+2024/03/21-11:14:56.779 4fb0 Level-0 table #16: 2997080 bytes OK
+2024/03/21-11:14:56.781 4fb0 Delete type=0 #12
